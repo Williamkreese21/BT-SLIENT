@@ -1,0 +1,44 @@
+cat > index.html << 'EOF'
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT-SILENT - Bluetooth Auto Jammer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: linear-gradient(135deg, #0f0f23, #1a1a3e, #0d0d1f); min-height: 100vh; }
+        .code-block { background: #1e1e2e; border-left: 4px solid #3b82f6; }
+    </style>
+</head>
+<body class="text-white">
+    <header class="py-12 px-4 text-center">
+        <h1 class="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">BT-SILENT</h1>
+        <p class="text-gray-400">Bluetooth Auto Jammer - Silent Mode</p>
+    </header>
+    
+    <div class="max-w-4xl mx-auto px-4 mb-8">
+        <div class="bg-yellow-500/10 border border-yellow-500/30 rounded-xl p-4">
+            <strong class="text-yellow-400">⚠️ WARNING:</strong>
+            <span class="text-yellow-200 text-sm"> Only use on devices you own. Illegal in most countries.</span>
+        </div>
+    </div>
+
+    <section class="max-w-4xl mx-auto px-4 mb-12">
+        <h2 class="text-2xl font-bold mb-6 text-center">🚀 Quick Start</h2>
+        <div class="space-y-4">
+            <div class="code-block rounded-xl p-5 font-mono text-sm">
+                <div class="text-gray-500 mb-1"># Clone & Run</div>
+                <div class="text-green-400">git clone https://github.com/YOUR-USERNAME/bt-silent.git</div>
+                <div class="text-green-400">cd bt-silent && chmod +x *.sh</div>
+                <div class="text-blue-400 font-bold mt-2">sudo ./bt-silent.sh</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-8 text-gray-500 text-sm border-t border-white/5">
+        Educational purposes only • Users responsible for legal compliance
+    </footer>
+</body>
+</html>
+EOF
